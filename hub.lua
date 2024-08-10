@@ -15,6 +15,27 @@ GameScripts:AddButton({
 })
 
 GameScripts:AddButton({
+	Name = "Project Auto (Auto Rob V4)",
+	Callback = function()
+      	loadstring(game:HttpGet('http://scripts.projectauto.xyz/AutoRobV4'))()
+  	end    
+})
+
+GameScripts:AddButton({
+	Name = "Project Auto (Auto Rob V5 BETA)",
+	Callback = function()
+      	loadstring(game:HttpGet('http://scripts.projectauto.xyz/AutoRobV5'))()
+  	end    
+})
+
+GameScripts:AddButton({
+	Name = "Project Auto (Auto Arrest V3)",
+	Callback = function()
+      	loadstring(game:HttpGet('http://scripts.projectauto.xyz/AutoArrestV3'))()
+  	end    
+})
+
+GameScripts:AddButton({
 	Name = "Eclipse.lol (Phantom Forces / Rivals",
 	Callback = function()
       	loadstring(game:HttpGet("https://raw.githubusercontent.com/dementiaenjoyer/homohack/main/loader.lua"))()
